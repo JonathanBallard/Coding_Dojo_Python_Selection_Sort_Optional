@@ -1,16 +1,5 @@
 
 
-def Selection_Sort(list):
-    for j in range(len(list) - 1):
-        for i in range(len(list) - j - 1):
-            if list[i+1] < list[i]:
-                list[i+1], list[i] = list[i], list[i+1]
-    return list
-
-my_list = [1,3,65,73,21,589,54,2,155,60]
-
-#print(Selection_Sort(my_list))
-
 
 
 
